@@ -67,7 +67,7 @@ transition: all .8s ease;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 90px;
     gap: 20px;
 }
 
@@ -127,21 +127,120 @@ transition: all .8s ease;
     object-fit: cover;
 }
 
+#about .content{
+    margin-top:40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    gap: 20px;
+}
 
 
+.about-text{
+    width: 500px;
+    height: 500px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.about-text div:nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+    color: #8000ff;
+}
 
 
+.about-text-header{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    width: 500px;
+    height: 40px;
+    position: relative;
+}
 
+.about-text-name::after{
+    display: block;
+    content: "";
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    height: 3px;
+    width: 10%;
+    background-color: #8000ff;
+    
 
+}
 
+.about-text-content{
+    font-size: 16px;
+    font-weight: 100;
+    color: #909090;
+    line-height: 28px;
+    width: 500px;
+    height: 40px;
+    margin-top: 30px;
+}
 
+.degree-ball{
+margin-top: 60px;
+height: 120px;
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: center;
+}
 
+.degree-ball div{
+height: 130px;
+width:130px;
+border-radius: 50%;
+background-color: #ffffff;
+display: flex;
+flex-direction: column;
+gap: 3px;
+justify-content: center;
+align-items: center;
+border: 6px solid #bfbfbf4f;
+border-right-color:#cbcdd6 ;
+border-bottom-color: #8000ff;
+border-left-color: #8000ff;
+}
 
+.degree-ball div h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+}
 
+.degree-ball div p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #909090;
+}
 
+.degree-ball div:nth-child(1){
+    border: 4px solid #bfbfbf4f;
+    border-right-color:#f02df0;
+    border-bottom-color: #f02df0;
+    border-left-color:#f02df0;
+}
 
+.degree-ball div:nth-child(2){
+    border: 4px solid #bfbfbf4f;
+    border-right-color:#8000ff;
+    border-bottom-color:#8000ff;
+}
 
-
+.degree-ball div:nth-child(3){
+    border: 4px solid #bfbfbf4f;
+    border-right-color:#ff8503;
+    border-bottom-color: #ff8503;
+}
 
 
 
