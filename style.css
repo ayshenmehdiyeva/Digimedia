@@ -14,14 +14,15 @@
 .container{
 width: 100%;
 height: 600vh;
-background-color: #f1f2f6;
+background-image:linear-gradient(to top #e4e4e4,#c3c3c5, #f1f2f6,#dddddd);
 }
 
 .header{ 
     height: 80px;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
+    position: absolute;
     justify-content:space-around;
     align-items: center;
     position: fixed;
@@ -147,14 +148,14 @@ transition: all .8s ease;
     gap: 15px;
 }
 
-.about-text div:nth-child(1){
+.about-text-header{
     font-size: 18px;
     font-weight: 700;
     color: #8000ff;
 }
 
 
-.about-text-header{
+.about-text-name{
     font-size: 36px;
     font-weight: 700;
     color: #000;
@@ -172,8 +173,6 @@ transition: all .8s ease;
     height: 3px;
     width: 10%;
     background-color: #8000ff;
-    
-
 }
 
 .about-text-content{
@@ -242,41 +241,191 @@ border-left-color: #8000ff;
     border-bottom-color: #ff8503;
 }
 
+#service .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    gap: 20px;
+    position: relative;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.services-header div:nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+    color: #8000ff;
+    text-align: center;
+    position: relative;
+}
 
 
+.services-header div:nth-child(2)
+{   text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    width: 600px;
+    height: 40px;
+    position: relative;
+}
+
+.services-header div:nth-child(2)::after{
+    display: block;
+    content: "";
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 280px;
+    height: 3px;
+    width: 10%;
+    background-color: #8000ff;
+}
+
+.services ul{
+    list-style: none;
+    display: flex;
+    margin-top: 130px;
+    margin-left: 90px;
+    gap: 4px;
+}
 
 
+.services ul li{
+    width: 140px;
+    height: 160px; 
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.services ul li p{
+    font-size: 19px;
+    font-weight: 800;
+    color: #000;
+}
+
+.services ul li:focus{
+    box-shadow: 5px 5px 4px #c2c2c2a0, -5px -5px 4px #c2c2c2a0;
+    background-color: #fff;
+}
+
+.get-with-us-now{
+    margin-top: 30px;
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(to left, #b948bd, #9268a8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    position: relative;
+}
 
 
+.get-head div:nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
 
+.get-head div:nth-child(2)
+{   text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 600px;
+    height: 40px;
+    position: relative;
+}
 
+.get-head div:nth-child(2)::after{
+    display: block;
+    content: "";
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 280px;
+    height: 3px;
+    width: 10%;
+    background-color: #ffffff;
+}
 
+.get-input{
+    width: 750px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.input input{
+    width: 210px;
+    height: 60px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
 
+::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    color: #929292;
+}
 
+.btn{
+    width: 240px;
+    height: 90px;
+    outline: none;
+    border: none;
+   border-radius: 0 50px 50px 0;
+   background-color: #3d49b8;
+   position: relative;
+   left: 23px;
+   color: #fff;
+   font-size: 18px;
+   cursor: pointer;
+   opacity: 0.85;
+}
 
+/*
 
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
 
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  */
 
 
 

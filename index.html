@@ -9,6 +9,7 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 <body>
     <div class="container">
@@ -47,11 +48,12 @@
                 <div class="about-text">
                     <div class="about-text-header">ABOUT US</div>
                     <div class="about-text-name"> Who Is DigiMedia <span style="color: blueviolet;">Agency</span></div>
-                    <div class="about-text-content">Sed iaculis nisi arcu, quis rutrum felis vestibulum fringilla. Nam in odio id tellus aliquam
+                    <div class="about-text-content">Sed iaculis nisi arcu, quis rutrum felis vestibulum fringilla. Nam
+                        in odio id tellus aliquam
                         aliquam. Curabitur id justo vel orci pellentesque molestie non vel ligula. Sed scelerisque
                         tellus in fringilla sollicitudin.</div>
                     <div class="degree-ball">
-                          <div>
+                        <div>
                             <h1>80%</h1>
                             <p>Coding</p>
                         </div>
@@ -62,16 +64,91 @@
                         <div>
                             <h1>60%</h1>
                             <p>Animation</p>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="service">salam necesen yxsiam</div>
-        <div id="project"></div>
-        <div id="blog"></div>
-        <div id="contact"></div>
+        <div id="service">
+            <div class="content">
+                <div class="our-services">
+                    <div class="services-header">
+                        <div>OUR SERVICES</div>
+                        <div>What Our Agency Provides
+                        </div>
+                    </div>
+                    <div class="services" >
+                        <ul>
+                            <li tabindex="0"><img src="service-icon-01.png" alt="">
+                            <p>Apartments</p></li>
+                            <li tabindex="0"><img src="service-icon-02.png" alt="">
+                                <p>Food & Life</p></li>
+                            <li tabindex="0"><img src="service-icon-03.png" alt="">
+                                <p>Cars</p></li>
+                            <li tabindex="0"><img src="service-icon-02.png" alt="">
+                                <p>Shopping</p></li>
+                            <li tabindex="0"><img src="service-icon-01.png" alt="">
+                                <p>Traveling</p></li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="get-with-us-now">
+                <div class="get-head">
+                    <div>GET YOUR FREE QUOTE</div>
+                    <div>Grow With Us Now</div>
+                </div>
+                <div class="get-input">
+                    <div class="input"><input type="text" placeholder="You website URL...">
+                    <input type="text" placeholder="Email Address..."></div>
+                    <div ><input type="submit" class="btn" value="Get Quote Now"></div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div id="project">
+        <!-- <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div> -->
+    </div>
+    <div id="blog"></div>
+    <div id="contact"></div>
+    </div  
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+
+    <script type="text/javascript">
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>>
+
+
+
+
+
+
+
+
 </body>
 
 </html>
