@@ -13,7 +13,7 @@
 
 .container {
     width: 100%;
-    height: 600vh;
+    height: 100vh;
     background-image: linear-gradient(to top #e4e4e4, #c3c3c5, #f1f2f6, #dddddd);
 }
 
@@ -28,10 +28,12 @@
     position: fixed;
     background-color: #fff;
     box-shadow: 0 5px 5px #cbcdd6;
+    z-index: 11111;
 }
 
+
 .menu a {
-    height: 40px;
+    height: 100%;
     width: 110px;
     font-weight: 550;
     color: #161414;
@@ -263,7 +265,7 @@
     font-weight: 700;
     color: #8000ff;
     text-align: center;
-    position: relative;
+    
 }
 
 
@@ -274,7 +276,7 @@
     color: #000;
     width: 600px;
     height: 40px;
-    position: relative;
+    
 }
 
 .services-header div:nth-child(2)::after {
@@ -307,7 +309,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    position: relative;
+    
 }
 
 .services ul li p {
@@ -331,7 +333,6 @@
     justify-content: center;
     align-items: center;
     gap: 70px;
-    position: relative;
 }
 
 
@@ -340,7 +341,6 @@
     font-weight: 700;
     color: #ffffff;
     text-align: center;
-    position: relative;
 }
 
 .get-head div:nth-child(2) {
@@ -350,7 +350,6 @@
     color: #ffffff;
     width: 600px;
     height: 40px;
-    position: relative;
 }
 
 .get-head div:nth-child(2)::after {
@@ -374,7 +373,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: relative;
 }
 
 .input input {
@@ -383,7 +381,7 @@
     outline: none;
     border: none;
     font-size: 18px;
-    position: relative;
+
 }
 
 ::placeholder {
@@ -399,7 +397,7 @@
     border: none;
     border-radius: 0 50px 50px 0;
     background-color: #3d49b8;
-    position: relative;
+    position:relative;
     left: 23px;
     color: #fff;
     font-size: 18px;
@@ -415,7 +413,7 @@
     align-items: center;
     padding-top: 90px;
     gap: 20px;
-    position: relative;
+    
 }
 
 
@@ -427,14 +425,14 @@
     margin-left: 0px;
     justify-content: first baseline;
     margin-left: 150px;
-    position: relative;
+   
 }
 
 .project-header div:nth-child(1) {
     font-size: 18px;
     font-weight: 700;
     color: #8000ff;
-    position: relative;
+ 
 }
 
 
@@ -444,7 +442,7 @@
     color: #000;
     width: 600px;
     height: 40px;
-    position: relative;
+    
 }
 
 .project-header div:nth-child(2)::after {
@@ -452,7 +450,6 @@
     content: "";
     margin-top: 10px;
     margin-bottom: 20px;
-    position: relative;
     height: 2px;
     width: 10%;
     background-color: #8000ff;
@@ -771,6 +768,7 @@ font-size: 11px;
     color: #000;
     width: 600px;
     height: 40px;
+    margin-bottom: 30px;
     
 }
 
@@ -788,9 +786,18 @@ font-size: 11px;
 
 #contact .form{
     margin-top: 50px;
-    width: 800px;
-    height: 600px;
+    width: 860px;
+    height: 500px;
     display: flex;
+    gap: 40px;
+    background-color: #f4eaea4f;
+    border-radius: 30px;
+}
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
     gap: 40px;
 }
 
@@ -824,20 +831,77 @@ font-size: 11px;
     text-align: center;
 }
 
+iframe{
+    border-radius: 30px 0 0 30px;
+}
+
+::placeholder{
+    font-size: 13px;
+}
+
+textarea{
+    padding-top: 5px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+}
+form{
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+form div:nth-child(1){
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+form input{
+    height: 40px;
+    width: 250px;
+    border-radius:20px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    padding-left: 20px;
+}
 
 
+button{
+    height: 40px;
+    width: 500px;
+    outline: none;
+    border: 1px solid #f02df0;
+    background-color: #fff;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .7s ease;
+    color: #f02df0;
+    border-radius: 20px;
+}
+
+button:hover{
+background-color:#f02df0 ;
+color: #fff;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+.fooder{
+    margin-top: 100px;
+    height: 10vh;
+    background-image: linear-gradient(to left, #b948bd, #9268a8);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
 
 
 
