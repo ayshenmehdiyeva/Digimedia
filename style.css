@@ -754,6 +754,14 @@ font-size: 11px;
     
 }
 
+.content-header{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}
 .contact-header div:nth-child(1) {
     font-size: 16px;
     font-weight: 700;
@@ -787,7 +795,6 @@ font-size: 11px;
 }
 
 #contact .form{
-    margin-top: 50px;
     width: 860px;
     height: 500px;
     display: flex;
