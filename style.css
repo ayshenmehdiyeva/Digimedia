@@ -282,8 +282,8 @@
 .services-header div:nth-child(2)::after {
     display: block;
     content: "";
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     position: relative;
     left: 280px;
     height: 3px;
@@ -294,7 +294,7 @@
 .services ul {
     list-style: none;
     display: flex;
-    margin-top: 130px;
+    margin-top: 80px;
     margin-left: 90px;
     gap: 4px;
 }
@@ -803,7 +803,14 @@ font-size: 11px;
     gap: 40px;
 }
 
+
+.contact div h3:hover{
+    color: #f02df0;
+    cursor: pointer;
+}
+
 .form .contact{
+    padding-top: 10px;
     height: 150px;
     width: 500px;
     display: flex;
@@ -846,6 +853,7 @@ textarea{
     padding-left: 10px;
     outline: none;
     border: 1px solid #bbbbbb;
+    border-radius: 20px;
 }
 form{
 display: flex;
